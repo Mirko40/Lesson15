@@ -2,10 +2,11 @@ body {
     background: #252525;
   }
   .lab__header {
-    margin: auto;
-    width: 1920px;
+    margin: auto 0;
+    width:100%;
     height: 1072px;
     background-image: url("Foto/hero-bg.jpg.png");
+    background-position: center;
      /* border: 2px solid red; */
        /* display: flex;
     flex-direction: column;
@@ -13,12 +14,12 @@ body {
     align-items:center; */
     }
     .header--logo{
-padding-top:285px ;
+margin-top:20% ;
     }
     .header--head {
       
-        height: 105px;
-        padding-top:100px ;     
+        
+        margin-top:10% ;     
 font-size: 54px;
 letter-spacing: 9px;
 color: #ffffff;
@@ -28,7 +29,7 @@ font-family: "Lato";
 text-transform: uppercase;
     }
     .header--text {
-padding-top:200px ;
+        margin-top:25% ;
 
 font-size: 15px;
 letter-spacing: 1px;
@@ -39,7 +40,7 @@ font-family: "Lato";
 
     }
     .header--scroll {
-        margin-top:245px ; 
+        padding-top:15% ; 
     }
     .lab__about {
         margin: auto;
