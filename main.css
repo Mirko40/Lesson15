@@ -7,6 +7,7 @@ body {
     height: 1072px;
     background-image: url("Foto/hero-bg.jpg.png");
     background-position: center;
+    background-repeat: no-repeat;
      /* border: 2px solid red; */
        /* display: flex;
     flex-direction: column;
@@ -14,12 +15,10 @@ body {
     align-items:center; */
     }
     .header--logo{
-margin-top:20% ;
+margin-top: 285px;;
     }
     .header--head {
-      
-        
-        margin-top:10% ;     
+margin-top:100px ;     
 font-size: 54px;
 letter-spacing: 9px;
 color: #ffffff;
@@ -29,8 +28,7 @@ font-family: "Lato";
 text-transform: uppercase;
     }
     .header--text {
-        margin-top:25% ;
-
+        margin-top: 125px; ;
 font-size: 15px;
 letter-spacing: 1px;
 line-height: 29px;
@@ -40,7 +38,7 @@ font-family: "Lato";
 
     }
     .header--scroll {
-        padding-top:15% ; 
+        margin-top: 130px;; 
     }
     .lab__about {
         margin: auto;
