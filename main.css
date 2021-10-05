@@ -2,8 +2,9 @@ body {
     background: #252525;
   }
   .lab__header {
-    margin: auto 0;
+    margin: auto;
     width:100%;
+    max-width: 1920px;
     height: 1072px;
     background-image: url("Foto/hero-bg.jpg.png");
     background-position: center;
@@ -40,8 +41,9 @@ font-family: "Lato";
         margin-top: 245px;
     }
     .lab__about {
-        
-        width: auto;
+        margin: auto;
+        width:100%;
+    max-width: 1920px;
         height: 630px;
         padding-top: 6%;
         background-color: #FFFFFF;
@@ -89,7 +91,8 @@ text-align: center;
     }
     .lab__services {
         margin: auto;
-        width: auto;
+        width:100%;
+    max-width: 1920px;
         height: 488px;
         padding-top: 4%;
         background-image: url(Foto/services.jpg.png);
@@ -138,7 +141,8 @@ text-align: center;
 
 .lab__what {
             margin: auto;
-            width: auto;
+            width:100%;
+    max-width: 1920px;
             height: 1415px;
             padding-top: 5%;
             background-color: #FFFFFF;
@@ -200,8 +204,7 @@ text-align: center;
                         font-weight: 700;
                         font-family: "Lato";
                         text-align: center;
-                        
-                                        }
+                        }
     .what--text div {
         padding-top: 35px;
         padding-bottom: 35px;
