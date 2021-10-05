@@ -140,7 +140,7 @@ text-align: center;
             margin: auto;
             width: auto;
             height: 1415px;
-            padding-top: 4%;
+            padding-top: 5%;
             background-color: #FFFFFF;
             /* display: flex;
         flex-direction: column;
@@ -203,7 +203,7 @@ text-align: center;
                         
                                         }
     .what--text div {
-        padding-top: 44px;
+        padding-top: 35px;
         padding-bottom: 35px;
     }
     .lab__works {
