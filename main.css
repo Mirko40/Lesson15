@@ -15,7 +15,7 @@ body {
     align-items:center; */
     }
     .header--logo{
-margin-top: 285px;;
+margin-top: 25%;
     }
     .header--head {
 margin-top:100px ;     
@@ -24,11 +24,10 @@ letter-spacing: 9px;
 color: #ffffff;
 font-weight: 700;
 font-family: "Lato";
-
 text-transform: uppercase;
     }
     .header--text {
-        margin-top: 125px; ;
+        margin-top: 50px;
 font-size: 15px;
 letter-spacing: 1px;
 line-height: 29px;
@@ -38,32 +37,34 @@ font-family: "Lato";
 
     }
     .header--scroll {
-        margin-top: 130px;; 
+        margin-top: 245px;
     }
     .lab__about {
-        margin: auto;
-        width: 1920px;
+        
+        width: auto;
         height: 630px;
+        padding-top: 6%;
         background-color: #FFFFFF;
-        display: flex;
+        /* display: flex;
     flex-direction: column;
     align-self: center;
     align-items:center;
-    justify-content: center;
+    justify-content: center; */
     }
-    .about__container {
-        /* margin-top: 160px; */
-        width: 900px;
-        height: 330px;
-        border: 2px solid black;
-        display: flex;
+    .about {
+        
+       margin: auto;
+        width: 80%;
+        border: 2px solid #3c3c3c;
+        /* display: flex;
     flex-direction: column;
     align-self: center;
-    align-items:center;
+    align-items:center; */
     }
-    .about__container--head {
-        transform: translate(0,-50%);
-        width: 500px;
+
+    .about--head {
+      
+        width: 52%;
         font-size: 34px;
 letter-spacing: 5px;
 color: #3c3c3c;
@@ -72,10 +73,9 @@ font-family: "Lato";
 text-align: center;
 background-color:#FFFFFF;
     }
-    .about__container--text {
-        margin-top: 40px;
-        width: 540px;
-        height: 210px;
+    .about--text {
+        width: 90%;
+        padding: 30px 30px;
         font-size: 16px;
 line-height: 24px;
 color: #3c3c3c;
@@ -83,36 +83,40 @@ font-weight: 300;
 font-family: "Lato";
 text-align: center;
     }
-    .about__container--text p {
+    .about--text p {
         padding-top: 20px;
         text-align: center;
     }
     .lab__services {
         margin: auto;
-        width: 1920px;
+        width: auto;
         height: 488px;
+        padding-top: 4%;
         background-image: url(Foto/services.jpg.png);
-        display: flex;
+        background-position: center;
+        background-repeat: no-repeat;
+        /* display: flex;
     flex-direction: column;
     align-self: center;
     align-items:center;
-    justify-content: center;
+    justify-content: center; */
     }
-    .services__container {
+    .services {
         /* margin-top: 128px; */
-        width: 900px;
-        height: 252px;
+        margin: auto;
+        width: 80%;
+       
         color: #ffffff;
-        display: flex;
+        /* display: flex;
     flex-direction: column;
     align-self: center;
-    align-items:center;
+    align-items:center; */
     border:2px solid #ffffff;
         }
    
-    .services__container--head {
+    .services--head {
      
-        width: 500px;
+        width: 52%;
         font-size: 34px;
         letter-spacing: 5px;
         color: #ffffff;
@@ -120,10 +124,10 @@ text-align: center;
         font-family: "Lato";
         text-align: center;
         }
-        .services__container--text {
+        .services--text {
         margin-top: 30px;
-        width: 550px;
-        height: 210px;
+        width: 90%;
+        padding: 30px 30px;
         font-size: 16px;
         line-height: 26px;
         color: #ffffff;
@@ -134,34 +138,36 @@ text-align: center;
 
 .lab__what {
             margin: auto;
-            width: 1920px;
+            width: auto;
             height: 1415px;
+            padding-top: 4%;
             background-color: #FFFFFF;
-            display: flex;
+            /* display: flex;
         flex-direction: column;
         align-self: center;
         align-items:center;
-        justify-content:space-around;
+        justify-content:space-around; */
         }
-.what__container {
-          
-            width: 900px;
-            height: 1185px;
+.what {
+    margin: auto;
+            width: 80%;
+           
             font-size: 14px;
             line-height: 26px;
             color: #3c3c3c;
             font-weight: 300;
             font-family: "Lato";
             text-align: center;
-            display: flex;
+            /* display: flex;
         flex-direction: column;
         align-self: center;
-        align-items:center;
-       
+        align-items:center; */
+        border: 2px solid #3c3c3c;
+
       
             }
-            .what__container--head {
-                width: 500px;
+            .what--head {
+                width: 52%;
                 font-size: 34px;
                 letter-spacing: 5px;
                 color: #3c3c3c;
@@ -171,20 +177,20 @@ text-align: center;
                 
                 }
 
-                .what__container--text {
-                    margin-top: 30px;
-                    width: 610px;
+                .what--text {
+                    padding: 30px 30px;
+                    width: 90%;
                     font-size: 16px;
                     line-height: 26px;
                     color: #3c3c3c;
                     font-weight: 300;
                     font-family: "Lato";
                     text-align: center;
-                    display: flex;
+                    /* display: flex;
         flex-direction: column;
         align-self: center;
         align-items:center;
-        justify-content:space-around;
+        justify-content:space-around; */
         
                      }
                      .what__text--head {
@@ -196,7 +202,7 @@ text-align: center;
                         text-align: center;
                         
                                         }
-    .what__container--text div {
+    .what--text div {
         padding-top: 44px;
         padding-bottom: 35px;
     }
