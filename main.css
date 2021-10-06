@@ -289,14 +289,17 @@ text-align: center;
         align-content:space-between;
         justify-content:space-between; */
            }
-.works--img1, .works--img3, .works--img4, .works--img6 {
+           .works--img4, .works--img6, .works--img5 {
+            margin-top: 10px;
+           }
+/* .works--img1, .works--img3, .works--img4, .works--img6 {
    
-   /* width:25%; */
-   /* height: 236px; */
+   width:25%;
+    height: 236px;
    margin-top: 10px;
    padding-left: 50px;
-   }   
-.works--img2, .works--img5 {
+   }    */
+   .works--img1, .works--img2, .works--img3, .works--img4, .works--img5, .works--img6 {
     /* width:50%; */
     /* height: 236px; */
     padding-top: 170px;
@@ -330,6 +333,7 @@ font-family: "Lato";
     background-image: url(Foto/Layer4.png);
     background-position: center;
         background-repeat: no-repeat;
+        
 }
 .works--img5 {
     background-image: url(Foto/Layer5.png);
@@ -360,6 +364,7 @@ justify-content: center;
 flex-direction: column;
 align-self: center;
 align-items:center;
+border: 2px solid #3c3c3c;
 }
 .contact__container--head {
     width: 500px;
