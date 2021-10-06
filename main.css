@@ -281,6 +281,7 @@ text-align: center;
         max-width: 1920px;
         height: 485px;
         background-color: #FFFFFF;
+     
         /* display: flex;
         flex-wrap: wrap;
         align-self: center;
@@ -289,17 +290,21 @@ text-align: center;
         justify-content:space-between; */
            }
 .works--img1, .works--img3, .works--img4, .works--img6 {
-   padding: 5px;
+   
    /* width:25%; */
    /* height: 236px; */
+   margin-top: 10px;
+   padding-left: 50px;
    }   
 .works--img2, .works--img5 {
     /* width:50%; */
-    height: 236px;
+    /* height: 236px; */
+    padding-top: 170px;
+    padding-left: 100px;
    }
    .works__img--text {
-    margin-top: 170px;
-    margin-left: 50px;
+    /* margin-top: 170px;
+    margin-left: 50px; */
     font-size: 34px;
 letter-spacing: 5px;
 color: #ffffff;
