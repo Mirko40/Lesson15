@@ -261,7 +261,10 @@ text-align: center;
     }
     @media (max-width: 720px) 
     {
-     
+        .lab__what {
+         
+            height: 1350px;
+        }
       .what--head {
           font-size: 23px;
           letter-spacing: 2px;
