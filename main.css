@@ -1,7 +1,7 @@
 body {
     background: #252525;
   }
-  .lab__header {
+     .lab__header {
     margin: auto;
     width:100%;
     max-width: 1920px;
@@ -27,6 +27,7 @@ font-weight: 700;
 font-family: "Lato";
 text-transform: uppercase;
     }
+ 
     .header--text {
         margin-top: 50px;
 font-size: 15px;
@@ -37,9 +38,28 @@ font-weight: 400;
 font-family: "Lato";
 
     }
+    
     .header--scroll {
         margin-top: 245px;
     }
+    @media (max-width: 720px) 
+  {
+    .lab__header {
+        height: 800px;
+    }
+    .header--head {
+        font-size: 34px;
+        letter-spacing: 6px;
+        } 
+        .header--text {
+            font-size: 12px;
+            letter-spacing: 1px;
+            line-height: 20px;  
+        }
+        .header--scroll {
+            margin-top: 160px;
+        }
+}
     .lab__about {
         margin: auto;
         width:100%;
@@ -89,6 +109,23 @@ text-align: center;
         padding-top: 20px;
         text-align: center;
     }
+    @media (max-width: 720px) 
+    {
+        .lab__about {
+            height: 480px;  
+        }
+      .about--head {
+          font-size: 23px;
+          letter-spacing: 2px;
+          } 
+          .about--text {
+              font-size: 10px;
+              
+              line-height: 18px;  
+          }
+  
+  }
+
     .lab__services {
         margin: auto;
         width:100%;
@@ -138,6 +175,22 @@ text-align: center;
         font-family: "Lato";
         text-align: center;
           }
+          @media (max-width: 720px) 
+          {
+            .lab__services {
+               
+                height: 388px;
+            }
+            .services--head {
+                font-size: 23px;
+                letter-spacing: 2px;
+                } 
+                .services--text {
+                    font-size: 10px;
+                    line-height: 18px;  
+                }
+        
+        }
 
 .lab__what {
             margin: auto;
@@ -155,7 +208,6 @@ text-align: center;
 .what {
     margin: auto;
             width: 80%;
-           
             font-size: 14px;
             line-height: 26px;
             color: #3c3c3c;
@@ -167,8 +219,6 @@ text-align: center;
         align-self: center;
         align-items:center; */
         border: 2px solid #3c3c3c;
-
-      
             }
             .what--head {
                 width: 52%;
@@ -209,24 +259,39 @@ text-align: center;
         padding-top: 35px;
         padding-bottom: 35px;
     }
+    @media (max-width: 720px) 
+    {
+     
+      .what--head {
+          font-size: 23px;
+          letter-spacing: 2px;
+          } 
+          .what--text {
+              font-size: 10px;
+              line-height: 18px;  
+          }
+  
+  }
     .lab__works {
         margin: auto;
-        width: 1920px;
+        width:100%;
+        max-width: 1920px;
         height: 485px;
         background-color: #FFFFFF;
-        display: flex;
+        /* display: flex;
         flex-wrap: wrap;
         align-self: center;
         align-items:center;
         align-content:space-between;
-        justify-content:space-between;
+        justify-content:space-between; */
            }
 .works--img1, .works--img3, .works--img4, .works--img6 {
-    width: 550px;
-    height: 236px;
+   padding: 5px;
+   /* width:25%; */
+   /* height: 236px; */
    }   
 .works--img2, .works--img5 {
-    width: 800px;
+    /* width:50%; */
     height: 236px;
    }
    .works__img--text {
@@ -240,25 +305,38 @@ font-family: "Lato";
    }
 .works--img1 {
     background-image: url(Foto/Layer1.png);
+    background-position: center;
+        background-repeat: no-repeat;
 }
 .works--img2 {
     background-image: url(Foto/Layer2.png);
+    background-position: center;
+        background-repeat: no-repeat;
 }
 .works--img3 {
     background-image: url(Foto/Layer3.png);
+    background-position: center;
+        background-repeat: no-repeat;
 }
 .works--img4 {
     background-image: url(Foto/Layer4.png);
+    background-position: center;
+        background-repeat: no-repeat;
 }
 .works--img5 {
     background-image: url(Foto/Layer5.png);
+    background-position: center;
+        background-repeat: no-repeat;
 }
 .works--img6 {
     background-image: url(Foto/Layer6.png);
+    background-position: center;
+        background-repeat: no-repeat;
 }
 .lab__contact {
     margin: auto;
-    width: 1920px;
+    width:100%;
+    max-width: 1920px;
     height: 600px;
     background-color:#ffffff ;
     display: flex;
