@@ -279,7 +279,7 @@ text-align: center;
         margin: auto;
         width:100%;
         max-width: 1920px;
-        height: 485px;
+        height: 500px;
         background-color: #FFFFFF;
      
         /* display: flex;
@@ -289,18 +289,11 @@ text-align: center;
         align-content:space-between;
         justify-content:space-between; */
            }
-           .works--img4, .works--img6, .works--img5 {
-            margin-top: 10px;
-           }
-           /* .works--img2, .works--img5 {
-               margin-left: 10px;
-               margin-right: 10px;
-           } */
-
-
+         
    .works--img1, .works--img2, .works--img3, .works--img4, .works--img5, .works--img6 {
     /* width:50%; */
     /* height: 236px; */
+    margin-top: 25px;
     padding-top: 170px;
     padding-left: 50px;
    }
@@ -320,8 +313,9 @@ font-family: "Lato";
 }
 .works--img2 {
     background-image: url(Foto/Layer2.png);
-    background-position:left;
+    background-position:center;
         background-repeat: no-repeat;
+        background-size:cover;
 }
 .works--img3 {
     background-image: url(Foto/Layer3.png);
@@ -336,14 +330,68 @@ font-family: "Lato";
 }
 .works--img5 {
     background-image: url(Foto/Layer5.png);
-    background-position:left;
+    background-position:center;
         background-repeat: no-repeat;
+        background-size:cover; 
 }
 .works--img6 {
     background-image: url(Foto/Layer6.png);
     background-position: center;
         background-repeat: no-repeat;
 }
+@media (max-width: 1300px) 
+{
+           
+        .works--img1, .works--img2, .works--img3, .works--img4, .works--img5, .works--img6 {
+            /* width:50%; */
+            /* height: 236px; */
+            margin-top: 25px;
+            padding-top: 150px;
+            padding-left: 40px;
+           }
+       .works__img--text {
+      
+        font-size: 25px;
+    letter-spacing: 3px;
+    }}
+    @media (max-width: 975px) 
+{
+    .lab__works {
+     
+        height: 1100px;
+    }
+    .works--img1, .works--img2, .works--img3, .works--img4, .works--img5, .works--img6 {
+        /* width:50%; */
+        /* height: 236px; */
+        margin-top: 20px;
+        padding-top: 120px;
+        padding-left: 30px;
+        background-size:cover; 
+       }
+       .works__img--text {
+      
+        font-size: 22px;
+    letter-spacing: 2px;
+    }}
+@media (max-width: 720px) 
+{
+    .lab__works {
+     
+        height: 900px;
+    }
+    .works--img1, .works--img2, .works--img3, .works--img4, .works--img5, .works--img6 {
+        /* width:50%; */
+        /* height: 236px; */
+        margin-top: 15px;
+        padding-top: 100px;
+        padding-left: 20px;
+       }
+       .works__img--text {
+      
+        font-size: 20px;
+    letter-spacing: 2px;
+    }}
+
 .lab__contact {
     margin: auto;
     width:100%;
