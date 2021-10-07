@@ -398,23 +398,25 @@ font-family: "Lato";
     max-width: 1920px;
     height: 600px;
     background-color:#ffffff ;
-    display: flex;
+    padding-top: 4%;
+    /* display: flex;
 flex-direction: column;
 align-self: center;
 align-items:center;
-justify-content: center;
+justify-content: center; */
 }
 .contact {
-    width: 900px;
-    height: 290px;
-   display: flex;
+    width: 80%;
+    margin: auto;
+   /* display: flex;
 flex-direction: column;
 align-self: center;
-align-items:center;
+align-items:center; */
 border: 2px solid #3c3c3c;
+
 }
 .contact--head {
-    width: 500px;
+    width: 52%;
     font-size: 34px;
     letter-spacing: 5px;
     color: #3c3c3c;
@@ -423,18 +425,20 @@ border: 2px solid #3c3c3c;
     text-align: center;
 }
     .contact--text {
-        margin-top: 50px;
-        width: 540px;
+        margin-top: 30px;
+        width: 90%;
         font-size: 16px;
 line-height: 26px;
 color: #3c3c3c;
 font-weight: 300;
 font-family: "Lato";
 text-align: center;
+padding: 30px 30px;
 }
     .contact--button {
-        margin-top: 30px;
-        width: 400px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 38%;
         height: 60px;
         background-color: #3C3C3C;
         font-size: 16px;
@@ -443,19 +447,47 @@ color: #ffffff;
 font-weight: 400;
 font-family: "Lato";
 text-align: center;
-padding-bottom: 20px;
+
+
 }  
     .contact--footer  {
-        margin-top: 60px;
-        width: 316px;
+        margin-top: 4%;
+        width: 38%;
         height: 40px;
-        
         font-size: 14px;
 color: #3c3c3c;
 font-weight: 400;
 font-family: "Lato";
-display: flex;
+
+/* display: flex;
 align-self: center;
 align-items:center;
-justify-content:space-between;
+justify-content:space-between; */
 }
+.contact--footer span {
+    margin-left: 20px;
+}
+@media (max-width: 720px) 
+    {
+      .contact--head {
+          font-size: 23px;
+          letter-spacing: 2px;
+          } 
+          .contact--text {
+              font-size: 10px;
+              
+              line-height: 18px;  
+          }
+          .contact--button {
+            width: 38%;
+            height: 40px;
+            font-size: 10px;
+    letter-spacing: 2px;
+          }
+          .contact--footer  {
+            margin-top: 4%;
+            width: 65%;
+            height: 30px;
+            font-size: 8px;
+   
+  }}
