@@ -292,18 +292,17 @@ text-align: center;
            .works--img4, .works--img6, .works--img5 {
             margin-top: 10px;
            }
-/* .works--img1, .works--img3, .works--img4, .works--img6 {
-   
-   width:25%;
-    height: 236px;
-   margin-top: 10px;
-   padding-left: 50px;
-   }    */
+           /* .works--img2, .works--img5 {
+               margin-left: 10px;
+               margin-right: 10px;
+           } */
+
+
    .works--img1, .works--img2, .works--img3, .works--img4, .works--img5, .works--img6 {
-    /* width:50%; */
+    width:50%;
     /* height: 236px; */
     padding-top: 170px;
-    padding-left: 100px;
+    padding-left: 50px;
    }
    .works__img--text {
     /* margin-top: 170px;
@@ -321,7 +320,7 @@ font-family: "Lato";
 }
 .works--img2 {
     background-image: url(Foto/Layer2.png);
-    background-position: center;
+    background-position:left;
         background-repeat: no-repeat;
 }
 .works--img3 {
@@ -337,7 +336,7 @@ font-family: "Lato";
 }
 .works--img5 {
     background-image: url(Foto/Layer5.png);
-    background-position: center;
+    background-position:left;
         background-repeat: no-repeat;
 }
 .works--img6 {
