@@ -469,6 +469,9 @@ justify-content:space-between; */
 }
 @media (max-width: 720px) 
     {
+        .lab__contact {
+            height: 450px;
+        }
       .contact--head {
           font-size: 23px;
           letter-spacing: 2px;
