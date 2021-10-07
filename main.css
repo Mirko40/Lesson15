@@ -404,7 +404,7 @@ align-self: center;
 align-items:center;
 justify-content: center;
 }
-.contact__container {
+.contact {
     width: 900px;
     height: 290px;
    display: flex;
@@ -413,7 +413,7 @@ align-self: center;
 align-items:center;
 border: 2px solid #3c3c3c;
 }
-.contact__container--head {
+.contact--head {
     width: 500px;
     font-size: 34px;
     letter-spacing: 5px;
@@ -422,8 +422,8 @@ border: 2px solid #3c3c3c;
     font-family: "Lato";
     text-align: center;
 }
-    .contact__container--text {
-        margin-top: 60px;
+    .contact--text {
+        margin-top: 50px;
         width: 540px;
         font-size: 16px;
 line-height: 26px;
@@ -433,7 +433,7 @@ font-family: "Lato";
 text-align: center;
 }
     .contact--button {
-        margin-top: 40px;
+        margin-top: 30px;
         width: 400px;
         height: 60px;
         background-color: #3C3C3C;
@@ -443,6 +443,7 @@ color: #ffffff;
 font-weight: 400;
 font-family: "Lato";
 text-align: center;
+padding-bottom: 20px;
 }  
     .contact--footer  {
         margin-top: 60px;
