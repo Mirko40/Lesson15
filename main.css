@@ -299,7 +299,7 @@ text-align: center;
 
 
    .works--img1, .works--img2, .works--img3, .works--img4, .works--img5, .works--img6 {
-    width:50%;
+    /* width:50%; */
     /* height: 236px; */
     padding-top: 170px;
     padding-left: 50px;
