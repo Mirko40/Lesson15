@@ -115,7 +115,7 @@ text-align: center;
             height: 480px;  
         }
       .about--head {
-          font-size: 23px;
+          font-size: 20px;
           letter-spacing: 2px;
           } 
           .about--text {
@@ -182,7 +182,7 @@ text-align: center;
                 height: 388px;
             }
             .services--head {
-                font-size: 23px;
+                font-size: 20px;
                 letter-spacing: 2px;
                 } 
                 .services--text {
@@ -266,7 +266,7 @@ text-align: center;
             height: 1350px;
         }
       .what--head {
-          font-size: 23px;
+          font-size: 20px;
           letter-spacing: 2px;
           } 
           .what--text {
@@ -471,7 +471,7 @@ justify-content:space-between; */
             height: 450px;
         }
       .contact--head {
-          font-size: 23px;
+          font-size: 20px;
           letter-spacing: 2px;
           } 
           .contact--text {
